@@ -1,0 +1,116 @@
+/* Definir estilo básico */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #0056b3;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    color: #555;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Imagem de cabeçalho */
+.header-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo da seta de rolagem */
+.scroll-down {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.scroll-down img {
+    width: 50px;
+}
+
+.scroll-down:hover {
+    cursor: pointer;
+}
+
+/* Estilo do vídeo */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.video-container iframe {
+    width: 480px;
+    height: 270px;
+}
+
+/* Proposta com texto maior */
+.texto-grande {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin: 20px 30px;
+}
+
+/* Imagem final */
+.imagem-final {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Texto emotivo */
+.texto-emotivo {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #333;
+    margin: 20px 30px;
+}
+
+/* Ícones de redes sociais no rodapé */
+footer {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .scroll-down img {
+        width: 40px;
+    }
+
+    .social-icons a img {
+        width: 25px;
+    }
+}
